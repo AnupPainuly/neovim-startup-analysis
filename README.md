@@ -30,27 +30,26 @@ To use this project, follow the steps below:
 1. Run the neovim_startup.py script to visualize the loading times of Neovim plugins managed by Packer.
 
     ```shell
-
     python neovim_startup.py
     ```
 
 ## Dependencies
 
-    The project has the following dependencies:
+The project has the following dependencies:
 
-    - Python 3.x
-    - pandas library
-    - Matplotlib library (for data visualization)
+- Python 3.x
+- pandas library
+- Matplotlib library (for data visualization)
 
-    Please ensure that you have Python 3.x installed on your system. You can check the version of Python installed by running the following command in your terminal:
+Please ensure that you have Python 3.x installed on your system. You can check the version of Python installed by running the following command in your terminal:
 
     ```shell
     python --version
     ```
-   
+
 ## Directory Structure
 
-    The structure of the project directory is as follows:
+The structure of the project directory is as follows:
 
     ```css
     neovim-startup-time/
@@ -61,8 +60,8 @@ To use this project, follow the steps below:
     └── README.md
     ```
 
-    - `neovim_startup.py`: Python script for visualization and analysis.
-    - `profiler.sh`: Shell script for preparing raw data.
-    - `startup_times.txt`: Text file containing startup times.
-    - `LICENSE`: License file for the project.
-    - `README.md`: This file.
+- `neovim_startup.py`: Python script for visualization and analysis.
+- `profiler.sh`: Shell script for preparing raw data.
+- `startup_times.txt`: Text file containing startup times.
+- `LICENSE`: License file for the project.
+- `README.md`: This file.
