@@ -20,11 +20,11 @@ To use this project, follow the steps below:
    cd neovim-startup-analysis
 
     ```
-1. Run the prepare_data.sh script to gather the raw data of Neovim startup time. Make sure you have Neovim installed.
+1. Run the profiler.sh script to gather the raw data of Neovim startup time. Make sure you have Neovim installed.
 
     ```shell
 
-    ./prepare_data.sh
+    ./profiler.sh
 
     ```
 1. Run the neovim_startup.py script to visualize the loading times of Neovim plugins managed by Packer.
@@ -38,6 +38,7 @@ To use this project, follow the steps below:
     The project has the following dependencies:
 
     - Python 3.x
+    - pandas library
     - Matplotlib library (for data visualization)
 
     Please ensure that you have Python 3.x installed on your system. You can check the version of Python installed by running the following command in your terminal:
