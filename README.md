@@ -33,6 +33,7 @@ To use this project, follow the steps below:
 
     python neovim_startup.py
     ```
+
 ## Dependencies
 
     The project has the following dependencies:
