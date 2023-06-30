@@ -29,9 +29,7 @@ To use this project, follow the steps below:
     ```
 1. Run the neovim_startup.py script to visualize the loading times of Neovim plugins managed by Packer.
 
-    ```shell
     python neovim_startup.py
-    ```
 
 ## Dependencies
 
