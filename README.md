@@ -35,12 +35,13 @@ To use this project, follow the steps below:
     ```
 ## Dependencies
 
-The project has the following dependencies:
+    The project has the following dependencies:
 
-- Python 3.x
-- Matplotlib library (for data visualization)
+    - Python 3.x
+    - Matplotlib library (for data visualization)
 
-Please ensure that you have Python 3.x installed on your system. You can check the version of Python installed by running the following command in your terminal:
+    Please ensure that you have Python 3.x installed on your system. You can check the version of Python installed by running the following command in your terminal:
+
     ```shell
     python --version
     ```
