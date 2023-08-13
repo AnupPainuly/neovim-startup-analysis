@@ -34,11 +34,11 @@ echo "Parsing vim startup profile..."
 grep $grep_str $logfile > tmp.log
 awk -F\: '{print $1}' tmp.log > tmp1.log
 echo "packer/start" | awk -F'/' '{print $NF}' tmp.log > tmp2.log
-paste -d ',' tmp1.log tmp2.log | tr -s ' ' ',' > profile.csv
+paste -d ',' tmp1.log tmp2.log | tr -s ' ' ',' > ./data/profile.csv
 rm tmp.log tmp1.log tmp2.log $logfile
 
 
-python3 foo.py
+python3 neovim_startup-time.py
 
 cat <<EOF
 charts have been saved

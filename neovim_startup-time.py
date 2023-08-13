@@ -1,12 +1,11 @@
 import pandas as pd
 from matplotlib import pyplot as plt
 
-dat = pd.read_csv("profile.csv", header=None, names=["TraceTime", "SourceTime", "ExecTime", "PluginName"])
+dat = pd.read_csv("./data/profile.csv", header=None, names=["TraceTime", "SourceTime", "ExecTime", "PluginName"])
 dat_n = dat.groupby("PluginName")["ExecTime"].sum().reset_index()
 dat_n_sorted = dat_n.sort_values("ExecTime", ascending=False)
 top_10 = dat_n_sorted.head(10)
-#print(top_10.to_string(index = False))
-dat_n_sorted.to_csv("results.csv",index = False)
+dat_n_sorted.to_csv("./data/results.csv",index = False)
 
 
 # Create a bar chart with custom styling
@@ -21,7 +20,7 @@ plt.grid(axis="y", linestyle="--", alpha=0.7)
 plt.tight_layout()
 
 # Display the bar chart
-plt.savefig("bar_char.png")
+plt.savefig("./images/bar_char.png")
 
 # Prepare data for the pie chart
 top_5 = dat_n_sorted.head(5)
@@ -38,4 +37,4 @@ ax2 = fig.add_subplot(212)
 ax2.axis("off")
 ax2.legend(pie[0], labels,  loc="upper left")
 plt.tight_layout()
-plt.savefig("pie_chart.png")
+plt.savefig("./images/pie_chart.png")
