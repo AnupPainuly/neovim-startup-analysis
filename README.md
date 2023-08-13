@@ -86,3 +86,6 @@ git push origin feature/AmazingFeature
 ```
 5. Open a Pull Request
 
+## License
+
+Distributed under the MIT License. See [LICENSE](https://github.com/AnupPainuly/neovim-startup-analysis/blob/main/LICENSE.md) for more information.
