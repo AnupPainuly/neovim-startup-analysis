@@ -44,7 +44,7 @@ The project has the following dependencies:
 
 
 
-Please ensure that you have Python 3.x installed on your system. You can check the version of Python installed by running the following command in your terminal:
+1. Please ensure that you have Python 3.x installed on your system. You can check the version of Python installed by running the following command in your terminal:
 
     ```shell
     python --version 
