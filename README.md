@@ -40,28 +40,12 @@ The project has the following dependencies:
 - Python 3.x
 - pandas library
 - Matplotlib library (for data visualization)
+- seaborn(optional)
+
+
 
 Please ensure that you have Python 3.x installed on your system. You can check the version of Python installed by running the following command in your terminal:
 
     ```shell
-    python --version
+    python --version 
     ```
-
-## Directory Structure
-
-The structure of the project directory is as follows:
-
-    ```css
-    neovim-startup-time/
-    ├── neovim_startup.py
-    ├── profiler.sh
-    ├── startup_times.txt
-    ├── LICENSE
-    └── README.md
-    ```
-
-- `neovim_startup.py`: Python script for visualization and analysis.
-- `profiler.sh`: Shell script for preparing raw data.
-- `startup_times.txt`: Text file containing startup times.
-- `LICENSE`: License file for the project.
-- `README.md`: This file.
