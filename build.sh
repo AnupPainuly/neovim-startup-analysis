@@ -46,7 +46,7 @@ charts have been saved
 | Top 10 Plugins That Slows Down neovim Startup |
 *-----------------------------------------------*
 
-$(cat -n results.csv | head -n 10 | tr "," "\t" | column -t) 
+$(cat -n ./data/results.csv | head -n 10 | tr "," "\t" | column -t) 
 
 *-----------------------------------------------* 
 Done!
