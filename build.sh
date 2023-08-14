@@ -1,8 +1,6 @@
 #!/bin/bash
 
 set -eu
-# set -x
-
 echo "Generating vim startup profile..."
 logfile="vim.log"
 
